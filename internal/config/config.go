@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	FireflyAppTimeout = 10               // 10 sec for fftc to app service timeout
+	FireflyAppTimeout = 20               // 10 sec for fftc to app service timeout
 	ModelFile         = "data/model.gob" //file name to store model
 	apiKeyEnvVar      = "FF_API_KEY"
 	appUrlEnvVar      = "FF_APP_URL"
